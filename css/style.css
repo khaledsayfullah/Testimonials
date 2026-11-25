@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Inter", sans-serif; */
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    padding: 193px 88px 194px 143px;
+}
+.header{
+    text-align: center;
+}
+.header p{
+    letter-spacing: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #676767;
+}
+.header h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #1E3344;
+    padding: 24px 0 48px 0;
+}
+.header p:last-child{
+    font-weight: 400;
+    font-size: 18px;
+    color: #747789;
+    font-family: "Open Sans", sans-serif;
+    line-height: 32px;
+    letter-spacing: 0;
+    width: 604px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+.card{
+    width: 548px;
+    box-shadow: 2px 3px 50px 2px rgba(145, 142, 142, 0.212);
+    text-align: center;
+    border-radius: 10px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.card h5{
+    margin-top: -43px;
+    margin-bottom: 24px;
+    color: #060606;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #515151;
+    line-height: 32px;
+    width: 422px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+}
